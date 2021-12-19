@@ -1,0 +1,219 @@
+header {
+  height: 80px;
+  padding: 0px 20px;
+  box-shadow: 0px 1px 5px grey;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background: #b3b2b2;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 8px;
+}
+footer .footer-logo {
+  flex-basis: 25%;
+}
+footer .footer-logo .logo-img {
+  display: flex;
+  background: blue;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+footer .email-field {
+  text-align: center;
+  color: white;
+  background: black;
+  width: 100px;
+  height: 25px;
+}
+
+body {
+  background: grey;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  background: purple;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+p {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  background: white;
+  height: 10px;
+  width: 100px;
+}
+
+h1 {
+  background: firebrick;
+}
+
+h4 {
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.logo {
+  flex-basis: 70%;
+  align-items: center;
+}
+.logo .logo-img {
+  display: flex;
+  background: blue;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+nav {
+  flex-basis: 30%;
+  display: flex;
+}
+nav a {
+  text-align: center;
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+#top-section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  background: #b3b2b2;
+  align-items: center;
+}
+#top-section .top-left {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  background: white;
+  height: 10px;
+  width: 100px;
+}
+#top-section .top-right {
+  text-align: center;
+  background: blue;
+  height: 250px;
+  width: 250px;
+}
+
+#second-section {
+  height: 75px;
+  display: flex;
+  padding: 10px;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background: #666565;
+  align-items: center;
+}
+#second-section .second-left {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  background: white;
+  height: 10px;
+  width: 100px;
+}
+#second-section .second-right {
+  flex-flow: row nowrap;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  background: white;
+  height: 10px;
+  width: 100px;
+}
+#second-section span {
+  font-size: 14px;
+  display: inline-block;
+  background: blue;
+  height: 50px;
+  width: 50px;
+}
+
+#third-section {
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background: #b3b2b2;
+  align-items: center;
+}
+#third-section .third-left-text p {
+  background: white;
+  height: 10px;
+  width: 100px;
+}
+#third-section .third-section-img {
+  text-align: center;
+  background: blue;
+  height: 250px;
+  width: 250px;
+  margin-left: 10px;
+}
+
+#fourth-section {
+  height: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  background: #666565;
+  align-items: center;
+}
+#fourth-section p {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  background: white;
+  height: 10px;
+  width: 100px;
+}
+
+#fifth-section {
+  height: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background: #b3b2b2;
+  align-items: center;
+}
+
+#sixth-section {
+  height: 300px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background: #666565;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */

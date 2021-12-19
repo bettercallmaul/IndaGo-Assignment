@@ -1,0 +1,37 @@
+footer {
+  background: rgb(179, 178, 178);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 8px;
+  }
+
+  .footer-logo {
+    flex-basis: 25%;
+
+    .logo-img {
+      display: flex;
+      background: blue;
+      height: 45px;
+      width: 45px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+  }
+
+  .email-field {
+    text-align: center;
+    color: white;
+    background: black;
+    width: 100px;
+    height: 25px;
+  }
+}
